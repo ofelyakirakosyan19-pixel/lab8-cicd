@@ -8,13 +8,13 @@ def hello():
     image_url = "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?q=80&w=500"
     
     # Ձեր GitHub-ի կամ ցանկացած այլ կայքի հղումը
-    website_url = "https://github.com" 
+    website_url = "https://ofelyakirakosyan19-pixel.github.io/lab8-cicd/" 
 
     # Կառուցում ենք HTML-ը
     html_content = f"""
     <div style="text-align: center; font-family: Arial, sans-serif; margin-top: 50px;">
-        <h1>Welcome to Ofelya's CI/CD Project!</h1>
-        <p>Managed via WSL2 and Built by GitHub Actions</p>
+        <h1>Welcome to CI/CD Project!</h1>
+        <p>Powered by Containerized Automation & Scalable Pipelines</p>
         
         <div style="margin: 20px 0;">
             <img src="{image_url}" alt="DevOps" style="border-radius: 10px; max-width: 100%; height: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
